@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/xiaomeiwu/js",
   "author": "xiaomeiwu <xiaomeiwu2020@outlook.com>",
-  "license": "MIT"
+  "scripts": {
+    "jest": "jest",
+    "array": "jest --rootDir=src/array"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
