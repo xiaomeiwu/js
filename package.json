@@ -5,8 +5,7 @@
   "repository": "https://github.com/xiaomeiwu/js",
   "author": "xiaomeiwu <xiaomeiwu2020@outlook.com>",
   "scripts": {
-    "jest": "jest",
-    "array": "jest --rootDir=src/array"
+    "jest": "jest"
   },
   "license": "MIT",
   "devDependencies": {
