@@ -26,3 +26,7 @@ test('', function() {
   b.clear()
   expect(b.size).toBe(0)
 })
+const c = new Map()
+c.set('x', 'this is x')
+c.set(function() {}, 'this is y')
+console.log([...c], Array.from(c))
